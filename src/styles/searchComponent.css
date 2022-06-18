@@ -1,0 +1,92 @@
+/* los estilos están dividos en cada archivo en desktop y vista responsive */
+.Global {
+    box-sizing:border-box;
+    margin:0;
+    left:0;
+    overflow-x:hidden;
+  }
+.containerAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width:100vw;
+    height:80px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    justify-content:space-between;
+    overflow-y:hidden;
+}
+.nav input {
+    margin:0px 0px 0px 20px ;
+    font-size: 20px;
+    font-family:'Calibri';
+    border-radius:5px;
+    width:50%;
+    padding:10px 10px 10px 60px;
+    border:0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline:none;
+    background: url('../media/search.png') no-repeat 10px center;
+    background-size:contain;
+}
+.nav input:focus {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 9px -2px inset, rgba(0, 0, 0, 0.3) 0px 3px 9px -3px inset;
+}
+.nav button {
+    margin:0px 10px 0px 0px !important;
+    font-family:'Calibri';
+    border-radius:5px;
+    font-size:6rem;
+    border:0px;
+    outline:none;
+    cursor:pointer;
+    color:#E5E4E3;
+    background:transparent;
+}
+.nav button:nth-child(2n) {
+  margin:0px 60px 0px 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:90vw;
+        border-bottom:3px solid #E5E4E3;
+        height:auto;
+        padding:0px 0px 60px 0px;
+    }
+    .nav input {
+        order:2;
+        width:80%;
+        margin:0px;
+    }
+    .nav div {
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .nav button {
+        order:1;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .nav button {
+        font-size:5rem;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+
+    .nav button {
+        font-size:6rem;
+    }
+}
+      

@@ -1,0 +1,130 @@
+/* los estilos están dividos en cada archivo en desktop y vista responsive */
+.products {
+    font-family:'Calibri';
+    margin:40px 0px 0px 0px;
+    display: inline-grid;
+    grid-template-columns: repeat(5, .8fr);
+    grid-template-rows: repeat(auto, .8fr);
+    grid-gap: 3rem;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width:100vw;
+    overflow-x:hidden;
+    justify-items:center;
+} 
+.products .card {
+    width: 90%;
+    padding:30px;
+    /* background:gray; */
+    border-radius:10px;
+    box-shadow: rgba(191, 219, 248, 1) 0px 1px 4px;
+    text-align:center;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.products .card .imgContainer {
+    background:#f2f2f2;
+    cursor:pointer;
+    overflow:hidden;
+}
+.products .card .imgContainer img {
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position:50% 50%;
+    transition:.5s;
+}
+.products .card .imgContainer img:hover {
+    transform:scale(1.2);
+}
+
+.products .card h2 {
+    font-size:1.2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight:normal;
+    margin:20px 0px 20px 0px;
+}
+.products .card p {
+    font-size:1rem;
+    font-weight:normal;
+    margin:20px 0px 20px 0px;
+}
+.products .card .oldPrice {
+    text-decoration:line-through;
+}
+.products .card .discountValue {
+    color:red; 
+}
+.products .card .seeMore {
+    color:#CCCCD0;
+    font-weight:bolder;
+}
+
+.products .addProduct {
+    background: #2971CE;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform:uppercase;
+    border:0px;
+    cursor:pointer;
+}
+.products .addProduct:active{
+    background:#ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color:black;
+}
+@media screen and (max-width: 700px) {
+    .products {
+        max-width:90vw;
+        grid-template-columns: repeat(2, 1fr);
+        /* repeat grid template during columns */ 
+        padding:0px;
+    }
+    .products .card {
+        padding:10px;
+    }
+    .products .card * {
+        margin:5px !important;
+    }
+    .products .card h2 {
+        font-size:1.2rem;
+    }
+    .hide {
+        display:none;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width: 950px) {
+    .products {
+        max-width:90vw;
+        grid-template-columns: repeat(3, 1fr);
+        padding:0px;
+    }
+    .products .card * {
+        margin:10px !important;
+    }
+}
+
+
+@media screen and (min-width:921px) and (max-width: 1200px) {
+    .products {
+        max-width:90vw;
+        grid-template-columns: repeat(3, 1fr);
+        padding:0px;
+    }
+    .products .card * {
+        margin:10px !important;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width: 1500px) {
+    .products {
+        max-width:90vw;
+        grid-template-columns: repeat(4, .6fr);
+        padding:0px;
+    }
+}
