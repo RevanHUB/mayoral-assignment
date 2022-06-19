@@ -1,5 +1,6 @@
 # Mayoral Frontend Assignment
 <details>
+  
 |  Desktop | Mobile |
 |:--------:|:------:|
 | ![Desktop](./.github/desktop.png) | ![Mobile](./.github/mobile.png)  |
