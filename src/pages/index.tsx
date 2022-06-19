@@ -1,9 +1,10 @@
 import { NextPage } from "next";
-import Products from './components/productsContainer.js';
-import axios from 'axios';
+import Head from 'next/head'
+import Products from './components/productsContainer';
 
 const HomePage: NextPage = () => {
   return <div className="Global">
+
     <Products />
   </div>;
 };

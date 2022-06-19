@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios';
-import Card from './cards.js';
+import Card from './cards';
 
 export function Products() {
     const [handle, setHandle] = useState(false); // Genero un estado para controlar el input de busqueda
@@ -8,7 +8,7 @@ export function Products() {
     const [sort, setSort] = useState(false); // Genero dos estados para controlar el orden de los productos
     const [reverse, setReverse] = useState(false);
     const [message , setMessage] = useState(""); // Genero un estado que guarde la búsqueda en caso de que el input esté vacío
-    const searchFetch = async (value) => { // Genero una funcion para hacer la petición por nombre (busqueda)
+    const searchFetch = async (value : string) => { // Genero una funcion para hacer la petición por nombre (busqueda)
         axios.get('http://localhost:3001/name/'+ value).then((req) => {
                 if (req.data?.length > 0) {
                     setData(req.data)
@@ -45,7 +45,7 @@ export function Products() {
         // Redirecciono los caminos por defecto a la API
         if (sort === true){
             sortAsc();
-            setSort(false)
+            setSort(false) 
         } else if (reverse === true){
             sortDesc();
             setReverse(false)
@@ -73,7 +73,6 @@ export function Products() {
                 </div>
             </nav>
         <div id="productsContainer" className="products">
-          
             {showCards()}
         </div>
     </div>

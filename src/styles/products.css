@@ -19,7 +19,6 @@
     border-radius:10px;
     box-shadow: rgba(191, 219, 248, 1) 0px 1px 4px;
     text-align:center;
-    text-overflow: ellipsis;
     overflow:hidden;
 }
 
@@ -43,7 +42,9 @@
     font-size:1.2rem;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow-x:hidden;
     font-weight:normal;
+    width:100%;
     margin:20px 0px 20px 0px;
 }
 .products .card p {
