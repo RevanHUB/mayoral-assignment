@@ -38,7 +38,7 @@ Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos e
 ¡Muchas gracias a Mayoral por darme esta oportunidad!
 
 # Screenshots 💻 
-
+<details
 ``` 1920x1080 ``` 
 
 ![image](https://user-images.githubusercontent.com/84904766/174478147-2d8a5fd9-abe3-44f5-8bb0-fb637553cd48.png)
@@ -54,3 +54,4 @@ Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos e
 
 ![image](https://user-images.githubusercontent.com/84904766/174478123-d4e92dd8-d9c5-4809-a9f3-2c198c7227d4.png)
 
+</details>
