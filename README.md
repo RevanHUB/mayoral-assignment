@@ -28,13 +28,13 @@ Funcionalidad a implementar:
 
 # About 💻 
 
-Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos estén en funcionamiento, una trabaja bajo 3001 para evitar conflicto con los live server, Vite, NextJs o React. Las fotografías fueron tomadas como referencia del sitio web oficial de Mayoral, sin descargas de ningún tipo, ni ningún otro uso no autorizado, salvo para la realización de esta prueba técnica.
+Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos estén en funcionamiento, una trabaja bajo 3001 para evitar conflicto con los live server, Vite, NextJs o React. Las fotografías fueron tomadas del sitio web de Mayoral, trabajan bajo enlace directo, sin descargas de ningún tipo, usadas solo para la realización de esta prueba técnica.
 
 # Resumen: 🚀 
 - No se usaron test unitarios.
 
 ¡He disfrutado mucho de esta prueba técnica! 
-¡Muchas gracias a Mayoral por darme esta oportunidad y agradecerles por la de aplicar mis conocimientos!
+¡Muchas gracias a Mayoral por darme esta oportunidad!
 
 # Screenshots 💻 
 
