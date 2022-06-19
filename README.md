@@ -39,16 +39,14 @@ Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos e
 
 # Screenshots 💻 
 <details
-``` 1920x1080 ``` 
 
 ![image](https://user-images.githubusercontent.com/84904766/174478147-2d8a5fd9-abe3-44f5-8bb0-fb637553cd48.png)
 
-``` 1280x720 ```
+
 ![image](https://user-images.githubusercontent.com/84904766/174478666-f7956e05-cce6-414e-9d34-445f28969067.png)
 
-``` 390x844 ```
-![image](https://user-images.githubusercontent.com/84904766/174478845-d25fc1f1-84f4-4e74-ba34-42efbeadf59f.png)
 
+![image](https://user-images.githubusercontent.com/84904766/174478845-d25fc1f1-84f4-4e74-ba34-42efbeadf59f.png)
 
 ``` Deployment ```
 
