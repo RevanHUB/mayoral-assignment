@@ -3,7 +3,7 @@
 |  Desktop | Mobile |
 |:--------:|:------:|
 | ![Desktop](./.github/desktop.png) | ![Mobile](./.github/mobile.png)  |
-
+# From original 
 Maquetar las imágenes adjuntas y tener en cuenta los diferentes cortes en móvil y escritorio. La prueba deberá estar subida en un repositorio de GitHub.
 
 Tecnologías/Librerías requeridas:
