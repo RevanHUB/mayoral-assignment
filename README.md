@@ -43,11 +43,10 @@ Los archivos incluyen la API bajo la que funciona, necesita que ambos archivos e
 
 ![image](https://user-images.githubusercontent.com/84904766/174478147-2d8a5fd9-abe3-44f5-8bb0-fb637553cd48.png)
 
-
 ![image](https://user-images.githubusercontent.com/84904766/174478666-f7956e05-cce6-414e-9d34-445f28969067.png)
-
-
-![image](https://user-images.githubusercontent.com/84904766/174478845-d25fc1f1-84f4-4e74-ba34-42efbeadf59f.png)
+         
+![image](https://user-images.githubusercontent.com/84904766/174479458-f588ef4a-7bf4-4c82-9160-63b9a079d439.png)
+       
 
 ``` Deployment ```
 
