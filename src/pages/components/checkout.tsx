@@ -2,8 +2,6 @@ import React, {useState} from "react";
 
 export const Checkout = ({show, onShowChange, product}) => {
 
-    const [cart, addCart] = useState([]);
-
     return(
         <div className="checkout" style={{ display: (show ? 'flex' : 'none')}}>
             <div className="checkoutContainer">

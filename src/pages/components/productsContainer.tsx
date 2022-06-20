@@ -39,11 +39,6 @@ export function Products() {
             setData(req.data);
         });   
     }   
-
-    const showCheckout = (id : number) => {
-        setHandle(true);
-    }
-    
   
     useEffect(() => { 
         // Redirecciono los caminos por defecto a la API
