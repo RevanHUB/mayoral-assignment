@@ -39,6 +39,10 @@ export function Products() {
             setData(req.data);
         });   
     }   
+
+    const showCheckout = (id : number) => {
+        setHandle(true);
+    }
     
   
     useEffect(() => { 
